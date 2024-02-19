@@ -1,0 +1,24 @@
+/* styles.css */
+.container__table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table {
+    background-color: white;
+    color: $darkgreen;
+    width: 90%;
+    border: 1px solid $darkgreen;
+    border-collapse: collapse; /* Fusionner les bordures de cellules */
+  }
+
+  th{
+    background-color: $green;
+  }
+  
+  th, td {
+    border: 1px solid $darkgreen;
+    text-align: left; /* Aligner le texte à droite dans toutes les cellules */
+    padding: 8px; /* Ajouter un espacement autour du contenu de la cellule */
+  }
+  
